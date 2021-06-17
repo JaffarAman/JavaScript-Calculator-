@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DA367D;
+}
+.mainBox{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.inputBox input{
+    display: block;
+    width: 320px;
+    height: 80px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: lightgray;
+    text-align: right;
+    padding: 15px;
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.input2{
+    height: 30px !important;
+    font-size: large !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    color: #f23f69 !important;
+}
+.btnBox{
+    /* border: 1px solid red; */
+    width: 320px;
+    background-color:black;
+    padding: 10px;
+    border-radius:0 0 20px 20px;
+}
+.btnBox table td {
+    width: 80px;
+    padding: 5px;
+    text-align: center;   
+}
+
+.btnBox button{
+    padding: 15px ;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid lightgrey;
+    background-color: transparent;
+    color: lightgrey;
+     font-size: 19px;  
+    cursor: pointer;
+    /* font-style: italic; */
+    width: 50px;
+    
+}
+.btnBox button:hover{
+    background-color: whitesmoke ;
+    color: black ;
+}
+.grey{
+    background: #696969 !important ; 
+    font-weight: bold;
+}
+
+.pink{
+    background-color: #DC143C !important;
+    font-weight: bold;
+}
+.pink:hover{
+    background-color: #FF0033 !important;
+    color: white !important;
+}
+.grey:hover{
+    color: white !important;
+    background-color: gray !important;
+}
+
+.equal{
+    background-color: white !important;
+    color: black !important;
+}
+
+.zero{
+    border-radius: 20px !important;
+    width: 120px !important;
+}
